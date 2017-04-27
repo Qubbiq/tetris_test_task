@@ -1,0 +1,28 @@
+*{margin:0; padding: 0;border: none}
+
+body, html, #root{height: 100%}
+
+#root{
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+#stageContainer{
+	background: orange;
+	position: relative;
+}
+
+.shapeContainer{
+	position: absolute;
+}
+.shapeContainer>div{
+	position: relative;
+}
+.shapeContainer>div>div{
+	width : 20px;
+	height : 20px;
+	background: green;
+	position: absolute;
+
+}

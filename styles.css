@@ -9,8 +9,9 @@ body, html, #root{height: 100%}
 }
 
 #stageContainer{
-	background: orange;
+	background: #000000;
 	position: relative;
+	overflow: hidden;
 }
 
 .shapeContainer{
@@ -23,10 +24,7 @@ body, html, #root{height: 100%}
 #unitsWrapper>div{
 	width : 20px;
 	height : 20px;
-	background: green;
+	background: #9600ff;
 	position: absolute;
 }
 
-#unitsWrapper>div{
-	background: aqua
-}

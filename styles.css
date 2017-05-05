@@ -19,10 +19,14 @@ body, html, #root{height: 100%}
 .shapeContainer>div{
 	position: relative;
 }
-.shapeContainer>div>div{
+.shapeContainer>div>div,
+#unitsWrapper>div{
 	width : 20px;
 	height : 20px;
 	background: green;
 	position: absolute;
+}
 
+#unitsWrapper>div{
+	background: aqua
 }
